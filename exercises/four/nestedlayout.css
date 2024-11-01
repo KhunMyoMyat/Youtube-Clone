@@ -1,0 +1,77 @@
+body {
+    margin-left: 20px;
+    font-family: Oswald;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile {
+    display: inline-block;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
+    margin-right: 30px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.mutual-friend-row {
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.mutual-friend-picture {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 15px;
+    vertical-align: middle;
+}
+
+.mutual-friend {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+    font-size: 14px;
+    color: gray;
+}
+
+.add-friend-bt {
+    background-color: rgba(0, 98, 255, 0.873);
+    color: white;
+    border: none;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    padding: 8px 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.18s, font-weight 0.18s, box-shadow 0.15s;
+}
+
+.add-friend-bt:hover {
+    background-color: rgb(255, 122, 144);
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.351);
+}
+
+.add-friend-bt:active {
+    opacity: 0.5;
+}
+
+.mimi, .rex {
+    object-position: right;
+}

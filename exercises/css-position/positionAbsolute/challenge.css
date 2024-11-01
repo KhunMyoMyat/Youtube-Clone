@@ -1,0 +1,65 @@
+.first-shirt {
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+}
+
+.shirt1 {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.promo {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.second-shirt {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+.shirt2 {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.promotion {
+    position: absolute;
+        top: 5px;
+        right: 0px;
+        background-color: rgb(233, 246, 0);
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        padding: 2px 5px;
+        border-radius: 2px;
+}
+
+.button-overlay {
+    position: absolute;
+    background-color: rgba(180, 180, 180, 0.603);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.add-to-cart-button {
+    font-size: 13px;
+    border: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px 10px;
+}

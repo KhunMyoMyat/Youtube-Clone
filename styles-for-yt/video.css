@@ -1,0 +1,144 @@
+
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 16px;
+    padding: 20px;
+   
+}
+
+@media (max-width: 750px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:751px) and (max-width: 999px) {
+    .video-grid {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+}
+
+.thumbnail-row {
+    position: relative;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.video-time {
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 5px;
+    bottom: 7px;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.channel-row {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    /* display: flex; */
+}   
+
+.video-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.video-title a {
+    color: black;
+  text-decoration: none;
+}
+
+@media (min-width: 1000px) {
+    .video-title a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .video-title a {
+        
+    }
+}
+
+.channel-picture {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.profile-picture {
+    width: 35px;
+    border-radius: 50px;
+}
+
+.channel-profile-tooltip {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    box-shadow: 0 0 4px rgba(79, 77, 77, 0.434);
+    border-radius: 4px;
+    padding: 10px;
+    top: 45px;
+    z-index: 300;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;   
+}
+
+.channel-picture:hover .channel-profile-tooltip{
+    opacity: 1;
+}
+
+.channel-picture-tooltip {
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+
+.channel-name-tooltip {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.channel-subscriber-tooltip {
+    font-weight: 400;
+    color: gray;
+}
+
+@media (min-width: 1000px) {
+    .video-author,
+        .video-stats {
+            font-size: 14px;
+        }
+}
+
+.video-author,
+.video-stats {
+    font-size: 12px;
+    color: gray;
+}
+
+.video-author {
+    margin-bottom: 4px;
+}

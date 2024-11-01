@@ -1,0 +1,160 @@
+body {
+    margin-left: 10px;
+}
+
+
+.red-square {
+   margin-bottom: 30px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+
+}
+
+.green-circle {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.how-service {
+    border: 1px solid rgba(0, 0, 0, 0.312);
+    width: 300px;
+}
+
+.get-feedback {
+    margin: 3px;
+}
+
+.yes-bt, .no-bt {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.yt-music {
+    background-color: black;
+    width: 300px;
+}
+
+.setup-ytmusic {
+    padding: 10px 0 0 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.reason-setup {
+    margin-top: 0;
+    padding: 0 10px 10px 10px;
+    color: rgb(151, 150, 150);
+    font-size: 12px;
+}
+
+.topost {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.41);
+    margin-bottom: 50px;
+    padding: 5px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    vertical-align: middle;
+   
+}
+
+.post-description {
+    border: none;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.tweet-bt {
+    background-color: rgb(23, 116, 255);
+    color: white;
+    border: none;
+    padding: 3px 15px 3px 15px;
+    border-radius: 15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.tweet-bt:hover {
+    opacity: 0.9;
+}
+
+.tweet-bt:active {
+    opacity: 0.5;
+}
+
+.user-profile {
+    display: inline-block;
+    width: 100px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.477);
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+
+.user-picture {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 0;
+}
+
+.user-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+
+.mutual-friend {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 3px;
+    font-size: 11px;
+}
+
+.add-friend-bt {
+    background-color: rgb(6, 114, 255);
+    color: white;
+    font-size: 0.4em;
+    border: none;
+    padding: 3px 5px;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.mimi, .rex {
+    object-position: right;
+}
+
+.google-search {
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.google-logo {
+    margin-bottom: 30px;
+}
+
+.google-search-ber {
+    width: 500px;
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.268);
+}
+
+.google-search-bt {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}

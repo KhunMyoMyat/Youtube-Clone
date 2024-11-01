@@ -1,0 +1,190 @@
+body {
+    margin-bottom: 1000px;
+}
+
+div {
+    font-family: Arial;
+}
+
+.flexbox-container {
+    display: flex;
+    height: 50px;
+}
+
+.column1 {
+    display: flex;
+    background-color: lightpink;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    background-color: black;
+    color: white;
+}
+
+.column2 {
+    background-color: lightblue;
+    flex: 1;
+}
+
+.column-one {
+    background-color: lightpink;
+    width: 100px;
+}
+
+.column-two {
+    background-color: lightblue;
+    width: 300px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row2-item {
+    background-color: black;
+    color: white;
+}
+
+
+.gmail-inboxes {
+    padding: 10px 15px;
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+   
+}
+
+.inbox-label {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 20px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.sender-picture-container {
+    margin-right: 10px;
+}
+
+.sender-picture {
+    width: 50px; 
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.email-content {
+    flex: 1;
+}
+
+.email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.sender-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.send-time {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+.subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message {
+    color: rgb(120, 120, 120);
+}
+
+.x-dot-com {
+    display: flex;
+    width: 350px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.164);
+    padding: 10px;
+}
+
+.user-picture-column {
+    margin-right: 10px;
+}
+
+.user-profile-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.x-tweet-column {
+    flex: 1;
+}
+
+.x-header {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.x-author {
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.x-author-handle {
+    font-size: 15px;
+    color: gray;
+}
+
+.x-post {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.youtube-link {
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cover-picture {
+    background-color: rgb(185, 185, 185);
+    width: 80px;
+    margin-right: 10px;
+}
+
+.description {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   flex: 1;
+}
+
+.youtube-dot-com {
+    font-size: 13px;
+    color: gray;
+}
+
+.video-title {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 20px;
+}

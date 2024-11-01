@@ -1,0 +1,112 @@
+body {
+  padding: 10px;
+}
+
+.imgroundcorner {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.imgsquare {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.imgcircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.textboxRoundCorner {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.1px solid rgba(128, 128, 128, 0.853);
+  margin-right: 30px;
+}
+
+.tb-shadow-noborder {
+  font-size: 16px;
+    width: 500px;
+    border: none;
+    padding: 12px 15px 12px 15px;
+    border-radius: 30px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.email {
+  margin-bottom: 0;
+  color: gray;
+  font-size: 15px;
+}
+
+.email-input {
+  width: 200px;
+}
+
+.warn-letter {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: gray;
+  font-size: 15px;
+}
+
+.agree-join-bt {
+  background-color: rgb(50, 84, 223);
+  width: 210px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.agree-join-bt:hover {
+  opacity: 0.9;
+}
+
+.agree-join-bt:active {
+  opacity: 0.5;
+}
+
+
+.circleimg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.text-box {
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  padding: 5px 10px 5px 10px;
+  vertical-align: middle;
+}
+
+.tweet-bt {
+  background-color: rgb(46, 90, 235);
+  color: white;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  transition: opacity 0.15s;
+}
+
+.tweet-bt:hover {
+  opacity: 0.8;
+}
+
+.tweet-bt:active {
+  opacity: 0.5;
+}

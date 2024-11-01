@@ -1,0 +1,111 @@
+body {
+    height: 2000px;
+    padding-top: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid rgb(200, 196, 196);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 50px;
+}
+
+.left-section {
+    display: flex;
+   align-items: center;
+
+}
+
+.profile-picture {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.add-friend-button {
+   background-color: rgb(52, 144, 255);
+   color: white;
+   padding: 5px 10px;
+   border: none;
+   border-radius: 6px;
+   margin-right: 3px;
+   font-weight: bold;
+}
+
+.message {
+    background-color: rgb(195, 201, 207);
+        color: black;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+}
+
+
+.first-sidebar {
+    background-color: rgba(0, 0, 0, 0.912);
+    position: fixed;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    padding-top: 13px;
+}
+
+.profile1, .profile2, .profile3  {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.second-sidebar {
+    background-color: rgba(18, 18, 18, 0.87);
+    color: white;
+    position: fixed;
+    top: 80px;
+    left: 50px;
+    bottom: 0;
+    width: 130px;
+    padding: 13px;
+    font-family: Arial;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.add-channel {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.channel {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 13px;
+}
+
+
